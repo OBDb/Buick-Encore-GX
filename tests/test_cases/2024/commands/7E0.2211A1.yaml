@@ -1,0 +1,8 @@
+command_id: 7E0.2211A1
+test_cases:
+- expected_values:
+    BUICK_RUNTM: 269
+  response: 7E8056211A1010D
+- expected_values:
+    BUICK_RUNTM: 284
+  response: 7E8056211A1011C
