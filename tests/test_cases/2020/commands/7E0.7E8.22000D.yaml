@@ -4,25 +4,20 @@ test_cases:
     BUICK_VSS: 0
   response: 7E80462000D00
 - expected_values:
-    BUICK_VSS: 1
-  response: 7E80462000D01
-- expected_values:
-    BUICK_VSS: 2
-  response: 7E80462000D02
-- expected_values:
-    BUICK_VSS: 6
-  response: 7E80462000D06
+    BUICK_VSS: 0
+  response: |-
+    7E80462000D00
+    7EA0462000D00
 - expected_values:
     BUICK_VSS: 8
   response: |-
     7E80462000D08
     7EA0462000D08
 - expected_values:
-    BUICK_VSS: 9
-  response: 7E80462000D09
+    BUICK_VSS: 20
+  response: |-
+    7E80462000D14
+    7EA0462000D13
 - expected_values:
-    BUICK_VSS: 22
-  response: 7E80462000D16
-- expected_values:
-    BUICK_VSS: 24
-  response: 7E80462000D18
+    BUICK_VSS: 44
+  response: 7E80462000D2C
