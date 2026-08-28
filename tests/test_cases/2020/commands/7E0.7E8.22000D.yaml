@@ -19,5 +19,10 @@ test_cases:
     7E80462000D14
     7EA0462000D13
 - expected_values:
+    BUICK_VSS: 43
+  response: |-
+    7E80462000D2B
+    STOPEED
+- expected_values:
     BUICK_VSS: 44
   response: 7E80462000D2C
