@@ -24,5 +24,5 @@ test_cases:
     7E80462000D2B
     STOPEED
 - expected_values:
-    BUICK_VSS: 44
-  response: 7E80462000D2C
+    BUICK_VSS: 255
+  response: 7E80462000DFF
