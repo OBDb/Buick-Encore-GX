@@ -1,28 +1,33 @@
 command_id: 7E0.7E8.22000D
 test_cases:
 - expected_values:
+    BUICK_2500_VSS: 0
     BUICK_VSS: 0
   response: 7E80462000D00
 - expected_values:
+    BUICK_2500_VSS: 0
     BUICK_VSS: 0
   response: |-
     7E80462000D00
     7EA0462000D00
 - expected_values:
+    BUICK_2500_VSS: 8
     BUICK_VSS: 8
   response: |-
     7E80462000D08
     7EA0462000D08
 - expected_values:
+    BUICK_2500_VSS: 20
     BUICK_VSS: 20
   response: |-
     7E80462000D14
     7EA0462000D13
 - expected_values:
+    BUICK_2500_VSS: 43
     BUICK_VSS: 43
   response: |-
     7E80462000D2B
     STOPEED
 - expected_values:
-    BUICK_VSS: 255
+    BUICK_2500_VSS: 255
   response: 7E80462000DFF
